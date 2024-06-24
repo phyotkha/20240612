@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phyotkha/20240612.git"
+  },
+  "author": "phyotkha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phyotkha/20240612/issues"
+  },
+  "homepage": "https://github.com/phyotkha/20240612#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
